@@ -30,3 +30,14 @@ Route::middleware([
 });
 
 route::get('/redirect', [HomeController::class,'redirect']);
+
+//admin
+Route::group(['middleware' => 'admin'], function(){
+    Route::get('/admin/dashboard',[HomeController::class, 'redirect']);
+
+});
+//user
+Route::group(['middleware' => 'user'], function(){
+    Route::get('/user/dashboard',[HomeController::class, 'redirect']);
+
+});
