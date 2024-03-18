@@ -9,12 +9,12 @@
     <title>Vite + React</title>
   </head>
   <body>
-    <div id="root"><div className="container">
-      <div className='navbar-container'>
-            <div className='brand-logo'>
+    <div id="root"><div class="container">
+      <div class='navbar-container'>
+            <div class='brand-logo'>
                 <img src="{{ asset('images/example.jpg') }}" alt='logo' />
             </div>
-            <div className='menu-item'>
+            <div class='menu-item'>
                 <a href='/'>Home</a>
                 <a href='/cart'>Cart</a>
                 <a href='/your+orders'>Your Orders</a>
@@ -24,21 +24,21 @@
         </div>
         <div id="food-container">
         <div id='header'>
-            <div className='search'>
+            <div class='search'>
                 <input type='text' placeholder='What are you craving for today?' />
-                <button className='search-btn'>Search</button>
+                <button class='search-btn'>Search</button>
             </div>
            
         </div>
-    <div className='asdfg'>
+    <div class='asdfg'>
                 <div class='fade-in-container'>
                     <p class='item-menu'>Best Seller</p>
                     <div class='border'></div>
                 </div>
-                <div className='cart-container'>
-                    <div className='cart-list-container'>
-                        <div className='cart-list'>
-                            <div className='cart-list-header'>
+                <div class='cart-container'>
+                    <div class='cart-list-container'>
+                        <div class='cart-list'>
+                            <div class='cart-list-header'>
                                 <h3>Item</h3>
                                 <h3>Name</h3>
                                 <h3>Quantity</h3>
@@ -46,15 +46,15 @@
                             </div>
                             <!-- CART LIST -->
                             <!-- START -->
-                            <div className="cart-list-item">
-                                <div className="item-image-container">
+                            <div class="cart-list-item">
+                                <div class="item-image-container">
                                     <img
-                                        className="item-image"
+                                        class="item-image"
                                         src="https://netstorage-kami.akamaized.net/images/3313e069ce4209e6.jpg?imwidth=900"
                                     />
                                 </div>
-                                <h3 className="item-name">Kare-Kare</h3>
-                                <span className="item-quantity">
+                                <h3 class="item-name">Kare-Kare</h3>
+                                <span class="item-quantity">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="20px"
@@ -126,12 +126,12 @@
                                         </defs>
                                     </svg>
                                 </span>
-                                <span className="item-price">$50</span>
+                                <span class="item-price">$50</span>
                             </div>
                             <!-- END -->
                         </div>
                     </div>
-                    <div className='cart-summary'>
+                    <div class='cart-summary'>
                         <h3>Total Item: 4</h3>
                         <h3>Total Price: $40</h3>
                         <button>

@@ -1,0 +1,338 @@
+.your_orders-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:0px;
+    padding: 0px;
+}
+.your_orders-list-container{
+    padding: 60px;
+    /* background-color: rgb(146, 92, 25); */
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+   ;
+}
+.your_orders-summary {
+    padding: 60px;
+    background-color: rgb(146, 92, 25);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+}
+.your_orders-list-container-two{
+    padding: 10px;
+    background-color: rgb(146, 92, 25);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    width: 90%;
+    padding-top: 70px
+  
+    
+}
+.buttonsheez{
+    width: 20%;
+    height: 10%;
+    background-color: rgb(255, 69, 0);
+    border-radius: 20px;
+}
+.summa{
+    width: 100%;
+    display:flex;
+    height: 100%;
+    padding: 20px;
+    
+}
+.floating-www{
+    position: fixed;
+    width: 60%;
+    height: 80%;
+    top: 0%;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+.track-order-window{
+    height: 40%;
+    background-color: rgb(146, 92, 25);
+    display: flex;
+    padding: 80px;
+    justify-content: stretch;
+    width: 95%;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+.trackdaw{
+    display: flex;
+    justify-content: center;
+
+}
+.close-b{
+    height: 20px;
+    background-color: transparent;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+    
+}
+.paper{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.bag{
+    height: 50%;
+    width: 50%;
+    overflow-y: scroll;
+    padding: 1px;
+    background-color: rgb(82, 64, 51);
+    border-radius: 20px;
+    color: white;
+}
+.toto{
+    margin: 20px;
+    width: 90%;
+    font-size: 10px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    display: flex;
+}
+.tata{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.tutu{
+    margin: 10px;
+}
+.sub{
+    margin: 10px;
+    font-size: 20px;
+}
+.shipping{
+    margin: 10px;
+    font-size: 20px;
+}
+.tota{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.tuta{
+    margin: 10px;
+    font-size: 15px;
+    
+}
+.eyyy{
+    text-align: center;
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.proceed{
+    background-color:chocolate;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+    
+}
+.cancel{
+    background-color:chocolate;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    
+    
+}
+
+.your_orders-summary {
+    width: 100%;
+    height: 70%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 1px;
+}
+.deliveries{
+
+    display: flex;
+    color: black;
+    flex-direction: column;
+   
+  
+    
+}
+.cti{
+    font-size: 20px;
+    display: flex;
+
+}
+
+.ship-yie{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.standard{
+    margin: 20px;
+    width: 90%;
+    border: 2px solid #ffffff62;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.standard:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    
+}
+.stan{
+    margin: 10px;
+}
+.es{
+    margin: 10px;
+}
+.express{
+    margin: 20px;
+    width: 90%;
+    border: 2px solid #ffffff62;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    display: flex;
+}
+.express:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.pick{
+    margin: 20px;
+    width: 90%;
+    border: 2px solid #ffffff62;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    display: flex;
+}
+.pick:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.your_orders-summary button{
+    width: auto;
+    background-color: orangered;
+    padding: 10px 20px;
+    align-self: center;
+    border-radius: 15px;
+    border: 0;
+    color: white;
+}
+.your_orders-list-container {
+    width: 70%;
+}
+.oss{
+    padding: 10px;
+}
+
+.your_orders-list{
+    height: 70vh;
+    overflow-y: scroll;
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+
+.your_orders-list-header {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 30;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+.floating-button-two{
+    height: 10px;
+    background-color: white;
+    width: 200px;
+}
+.your_orders-list-item {
+    margin: 10px 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.your_orders-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 30px;
+    
+}
+
+.order-image-container,
+.order-name,
+.order-quantity,
+.order-price,
+.your_orders-list-header h3 {
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+}
+.order-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.order-image {
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+}
+.asd{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}

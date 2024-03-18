@@ -11,12 +11,12 @@
   </head>
   <body>
     <div id="root">
-    <div className="container">
-      <div className='navbar-container'>
-            <div className='brand-logo'>
+    <div class="container">
+      <div class='navbar-container'>
+            <div class='brand-logo'>
                 <img src="{{ asset('images/example.jpg') }}" alt='logo' />
             </div>
-            <div className='menu-item'>
+            <div class='menu-item'>
                 <a href='/'>Home</a>
                 <a href='/cart'>Cart</a>
                 <a href='/your+orders'>Your Orders</a>
@@ -26,17 +26,17 @@
         </div>
         <div id="food-container">
         <div id='header'>
-            <div className='search'>
+            <div class='search'>
                 <input type='text' placeholder='What are you craving for today?' />
-                <button className='search-btn'>Search</button>
+                <button class='search-btn'>Search</button>
             </div>
            
         </div>
-    <div className='your_orders-container'>
-                <div className='your_orders-list-container'>
+    <div class='your_orders-container'>
+                <div class='your_orders-list-container'>
                     <h1>Your order</h1>
-                    <div className='your_orders-list'>
-                        <div className='your_orders-list-header'>
+                    <div class='your_orders-list'>
+                        <div class='your_orders-list-header'>
                             <h3>Item</h3>
                             <h3>Name</h3>
                             <h3>Quantity</h3>
@@ -45,23 +45,23 @@
                         <!-- LIST OF ORDERS -->
                         <!-- START -->
                         @foreach($orders as $order)
-                            <div className="your_orders-list-item">
-                                <div className="order-image-container">
+                            <div class="your_orders-list-item">
+                                <div class="order-image-container">
                                 <img
-                                    className="order-image"
+                                    class="order-image"
                                     src="https://netstorage-kami.akamaized.net/images/3313e069ce4209e6.jpg?imwidth=900"
                                     alt="Kare-Kare"
                                 />
                                 </div>
-                                <h3 className="order-name">Kare-Kare</h3>
-                                <span className="order-quantity">x{quantity}</span>
-                                <span className="order-price">P50</span>
+                                <h3 class="order-name">Kare-Kare</h3>
+                                <span class="order-quantity">x{quantity}</span>
+                                <span class="order-price">P50</span>
                             </div>
                         @endforeach
                         <!-- END -->
                     </div>
                 </div>
-                <div className='your_orders-summary'>
+                <div class='your_orders-summary'>
                     <h3>Total Item: 4</h3>
                     <h3>Total Price: $40</h3>
                     <button disabled>Serving...</button>

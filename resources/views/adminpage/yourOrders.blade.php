@@ -9,12 +9,12 @@
     <title>Vite + React</title>
   </head>
   <body>
-    <div id="root"><div className="container">
-      <div className='navbar-container'>
-            <div className='brand-logo'>
+    <div id="root"><div class="container">
+      <div class='navbar-container'>
+            <div class='brand-logo'>
                 <img src="{{ asset('images/example.jpg') }}" alt='logo' />
             </div>
-            <div className='menu-item'>
+            <div class='menu-item'>
                 <a href='/'>Home</a>
                 <a href='/cart'>Cart</a>
                 <a href='/your+orders'>Your Orders</a>
@@ -24,9 +24,9 @@
         </div>
         <div id="food-container">
         <div id='header'>
-            <div className='search'>
+            <div class='search'>
                 <input type='text' placeholder='What are you craving for today?' />
-                <button className='search-btn'>Search</button>
+                <button class='search-btn'>Search</button>
             </div>
            
         </div>

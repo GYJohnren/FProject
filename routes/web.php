@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 
+use App\Http\Controllers\AdminController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,9 +17,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+route::get('/', [HomeController::class,'index']);
 
 Route::middleware([
     'auth:sanctum',
@@ -31,13 +31,15 @@ Route::middleware([
 
 route::get('/redirect', [HomeController::class,'redirect']);
 
-//admin
-Route::group(['middleware' => 'admin'], function(){
-    Route::get('/admin/dashboard',[HomeController::class, 'redirect']);
 
-});
-//user
-Route::group(['middleware' => 'user'], function(){
-    Route::get('/user/dashboard',[HomeController::class, 'redirect']);
+route::get('/view_product', [AdminController::class,'view_product']);
 
-});
+route::post('/add_product', [AdminController::class,'add_product']);
+
+route::get('/show_product', [AdminController::class,'show_product']);
+
+route::get('/delete_product/{id}', [AdminController::class,'delete_product']);
+
+route::get('/update_product/{id}', [AdminController::class,'update_product']);
+
+route::post('/update_product_confirm/{id}', [AdminController::class,'update_product_confirm']);
