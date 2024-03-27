@@ -2,7 +2,7 @@
 
 .navbar {
   font-weight: normal;
-  background: $navbar-bg;
+  background: yellow;
   left: $sidebar-width-lg;
   transition:left $action-transition-duration $action-transition-timing-function;
   -webkit-transition:left $action-transition-duration $action-transition-timing-function;
@@ -16,7 +16,7 @@
     -webkit-transition: width $action-transition-duration $action-transition-timing-function, background $action-transition-duration $action-transition-timing-function;
     -moz-transition: width $action-transition-duration $action-transition-timing-function, background $action-transition-duration $action-transition-timing-function;
     -ms-transition: width $action-transition-duration $action-transition-timing-function, background $action-transition-duration $action-transition-timing-function;
-    background: $navbar-bg;
+    background: yellow;
     width: $sidebar-width-lg;
     height: $navbar-height;
     @media (max-width: 991px) {
@@ -371,7 +371,7 @@
 .sidebar-tinted {
   .navbar {
     .navbar-brand-wrapper {
-      background: $navbar-brand-wrapper-tinted-bg;
+      background: yellow;
     }
   }
 }

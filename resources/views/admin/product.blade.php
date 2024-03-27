@@ -8,7 +8,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Corona Admin</title>
+    <title>Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="admin/assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="admin/assets/vendors/css/vendor.bundle.base.css">
@@ -24,7 +24,7 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="admin/assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="admin/assets/images/favicon.png" />
+    <link rel="shortcut icon" href="/resources/images/logo/logowhite.png" />
 
     <style type="text/css">
 
@@ -76,7 +76,8 @@
 
             <div class="div_center">
 
-                <h1 class="font_size">Add Product</h1>
+            <h1 class="font_size" style="color: #797703;">Add Product</h1>
+
 
                 <form action="{{url('/add_product')}}" method="POST" enctype="multipart/form-data">
                     @csrf

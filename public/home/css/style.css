@@ -12,33 +12,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #E2E2E2;
   overflow-x: hidden;
 }
 
 .layout_padding {
-  padding: 70px 0;
+  padding: 0px;
 }
 
-.layout_padding2 {
-  padding: 75px 0;
-}
-
-.layout_padding2-top {
-  padding-top: 75px;
-}
-
-.layout_padding2-bottom {
-  padding-bottom: 75px;
-}
-
-.layout_padding-top {
-  padding-top: 90px;
-}
-
-.layout_padding-bottom {
-  padding-bottom: 90px;
-}
 
 h1,
 h2 {
@@ -70,12 +51,12 @@ h2 {
     display: block;
     width: 70px;
     height: 5px;
-    background: #f7444e;
+    background: #797703;
     margin: 10px auto 10px;
 }
 
 .heading_container h2 span {
-  color: #f7444e;
+  color: #797703;
 }
 
 .heading_container p {
@@ -111,7 +92,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 100vh;
+  min-height:20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,7 +109,7 @@ a:focus {
 }
 
 .header_section {
-    padding: 15px 0;
+    padding: 0px 0;
 }
 
 .header_section .container-fluid {
@@ -173,7 +154,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #f7444e;
+  color: #797703;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link svg, .custom_nav-container .navbar-nav .nav-item.active .nav-link svg {
@@ -340,7 +321,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #f7444e;
+  background-color: #b0c538;
 }
 
 .slider_bg_box {
@@ -482,14 +463,14 @@ a:focus {
 }
 
 .product_section .options .option1 {
-  background-color: #f7444e;
-  border: 1px solid #f7444e;
+  background-color: #797703;
+  border: 1px solid #b0c538;
   color: #ffffff;
 }
 
 .product_section .options .option1:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: #b0c538;
 }
 
 .product_section .options .option2 {
@@ -526,7 +507,7 @@ a:focus {
 
 .product_section .btn-box a:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: #b0c538;
 }
 
 .arrival_section .heading_container {
@@ -573,14 +554,14 @@ a:focus {
   color: #f7444e;
 }
 
-.why_section .box {
+/* .why_section .box {
     text-align: center;
     margin-top: 45px;
     background-color: #002c3e;
     padding: 45px 50px;
     border-radius: 5px;
     color: #ffffff;
-}
+} */
 
 .detail-box h5 {
     font-size: 21px;
@@ -590,16 +571,16 @@ a:focus {
 .remove_line_bt h2::after {
     display: none;
 }
-
+/* 
 .why_section .box .img-box {
   margin-bottom: 15px;
-}
+} */
 
-.why_section .box .img-box svg {
+/* .why_section .box .img-box svg {
   width: 55px;
   height: auto;
   fill: #ffffff;
-}
+} */
 
 .subscribe_section {
   text-align: center;
@@ -1107,7 +1088,7 @@ form input[type="submit"]:focus {
 /** cpy **/
 
 .cpy_ {
-    background: #222;
+    background: #79770383;
     text-align: center;
     padding: 20px 0;
 }

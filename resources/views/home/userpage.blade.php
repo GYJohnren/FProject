@@ -10,8 +10,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <link rel="shortcut icon" href="images/logowhite.png" type="">
+      <title>Mangan</title> 
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
       <!-- font awesome style -->
@@ -25,36 +25,19 @@
       <div class="hero_area">
          <!-- header section strats -->
          @include('home.header')
-         <!-- end header section -->
-         <!-- slider section -->
+        
          @include('home.slider')
          <!-- end slider section -->
       </div>
-      <!-- why section -->
-      @include('home.why')
-      <!-- end why section -->
-      
-      <!-- arrival section -->
-      
-      <!-- end arrival section -->
-      
-      <!-- product section -->
+      <
       @include('home.product')
-      <!-- end product section -->
-
-      <!-- subscribe section -->
-      
-      <!-- end subscribe section -->
-      <!-- client section -->
-      
-      <!-- end client section -->
-      <!-- footer start -->
+      <
       @include('home.footer')
-      <!-- footer end -->
+     
       <div class="cpy_">
-         <p class="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a><br>
+         <p class="mx-auto">© 2024 All Rights Reserved. Mangan.<br>
          
-            Distributed By <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+
          
          </p>
       </div>

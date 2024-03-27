@@ -44,28 +44,9 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 0px 0;
 }
 
-.layout_padding2 {
-  padding: 75px 0;
-}
-
-.layout_padding2-top {
-  padding-top: 75px;
-}
-
-.layout_padding2-bottom {
-  padding-bottom: 75px;
-}
-
-.layout_padding-top {
-  padding-top: 90px;
-}
-
-.layout_padding-bottom {
-  padding-bottom: 90px;
-}
 
 h1,
 h2 {
@@ -119,7 +100,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
 }
@@ -518,28 +499,28 @@ a:focus {
 
 // why section
 
-.why_section {
+// .why_section {
 
 
-  .box {
-    text-align: center;
-    margin-top: 45px;
-    background-color: $primary2;
-    padding: 25px;
-    border-radius: 5px;
-    color: $white;
+//   .box {
+//     text-align: center;
+//     margin-top: 45px;
+//     background-color: $primary2;
+//     padding: 25px;
+//     border-radius: 5px;
+//     color: $white;
 
-    .img-box {
-      margin-bottom: 15px;
+//     .img-box {
+//       margin-bottom: 15px;
 
-      svg {
-        width: 55px;
-        height: auto;
-        fill: $white;
-      }
-    }
-  }
-}
+//       svg {
+//         width: 55px;
+//         height: auto;
+//         fill: $white;
+//       }
+//     }
+//   }
+// }
 
 //end why section
 

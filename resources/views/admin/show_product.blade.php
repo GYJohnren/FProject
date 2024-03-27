@@ -24,7 +24,7 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="admin/assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="admin/assets/images/favicon.png" />
+    <link rel="shortcut icon" href="/../../logo/logowhite.png" />
 
     <style type="text/css">
         .center
@@ -56,7 +56,8 @@
 
         .th_des
         {
-            padding: 30px;
+            padding: 20px;
+            background-color:white;
         }
     </style>
 
@@ -91,8 +92,8 @@
                         <th class="th_des">Product Description</th>
                         <th class="th_des">Product Price</th>
                         <th class="th_des">Product Image</th>
-                        <th class="th_des">Delete</th>
                         <th class="th_des">Edit</th>
+                        <th class="th_des">Delete</th>
                     </tr>
 
                     @foreach($product as $product)
