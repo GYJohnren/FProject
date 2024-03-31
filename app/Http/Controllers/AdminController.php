@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use App\Models\Order;
+
 
 class AdminController extends Controller
 {
@@ -80,6 +82,18 @@ class AdminController extends Controller
 
         return redirect()->back();
 
+    }
+
+    public function show_orders(){
+        $data=Order::all();
+        return view('admin.show_order', compact('data'));
+    }
+
+    public function approve_order($id)  {
+        $order = Order::find($id);
+        $order->status='Ready to Serve';
+        $order->save();
+        return redirect()->back();
     }
 
 }       

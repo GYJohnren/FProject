@@ -27,9 +27,16 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::post('addToCart/{product}', [HomeController::class,'addToCart'])->name('addToCart');
+
+
 });
 
 route::get('/redirect', [HomeController::class,'redirect']);
+
+route::post('/add_order/{id}',[HomeController::class,'add_order']);
+
 
 
 route::get('/view_product', [AdminController::class,'view_product']);
@@ -43,3 +50,18 @@ route::get('/delete_product/{id}', [AdminController::class,'delete_product']);
 route::get('/update_product/{id}', [AdminController::class,'update_product']);
 
 route::post('/update_product_confirm/{id}', [AdminController::class,'update_product_confirm']);
+
+route::get('/product_details/{id}',[HomeController::class,'product_details']);
+
+route::get('/order',[HomeController::class,'order']);
+
+
+
+route::get('/show_orders',[AdminController::class,'show_orders']);
+
+route::get('/approve_order/{id}',[AdminController::class,'approve_order']);
+
+
+
+
+

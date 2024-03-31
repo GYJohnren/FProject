@@ -39,8 +39,11 @@
                 <li class="nav-item"> 
                   
                 <a class="nav-link" href="{{url('/show_product')}}">Show Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{url('/show_orders')}}">Show Orders</a></li>
+
               </ul>
             </div>
+            
           </li>
           
         </ul>
