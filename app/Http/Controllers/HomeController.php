@@ -98,14 +98,18 @@ public function order()
     // Get the currently authenticated user
     $user = Auth::user();
 
-    // Retrieve the orders associated with the user
-    $data = Order::where('user_id', $user->id)->get();
+    // Retrieve the orders associated with the user and eager load the product relationship
+    $data = Order::with('product')->where('user_id', $user->id)->get();
 
     // Debug: Dump the orders variable
 
     // Return a view with the orders data
     return view('home.order', compact('data'));
+}
 
+public function producthome() {
+    $products=Product::all();
+    return view('home.producthome',compact('products'));
 }
 
 

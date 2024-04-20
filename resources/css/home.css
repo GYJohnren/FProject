@@ -88,7 +88,7 @@ body,
 
 .fw-content{
     width: 100%;
-    /* background-color: black; */
+    /*background-color: black;*/
     color: white;
     display: flex;  
     justify-content:center;

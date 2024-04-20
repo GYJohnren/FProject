@@ -12,7 +12,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #0c0c0c;
-  background-color: #E2E2E2;
+  background-image: url('images/MenuImg.png');
+  background-size: 100%; /* Make sure the image covers the entire screen */
+  background-position: center;
+  background-repeat: no-repeat; 
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
   overflow-x: hidden;
 }
 
@@ -21,9 +26,10 @@ body {
 }
 
 
+
 h1,
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cedarville Cursive', serif;
 }
 
 .heading_container {
@@ -42,21 +48,13 @@ h2 {
 .heading_container h2 {
     position: relative;
     margin-bottom: 0;
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     font-weight: bold;
-}
-
-.heading_container h2::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 5px;
-    background: #797703;
-    margin: 10px auto 10px;
+    color: #000000;
 }
 
 .heading_container h2 span {
-  color: #797703;
+  color: #000000;
 }
 
 .heading_container p {
@@ -124,7 +122,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 32px;
-  color: #000000;
+  color: #524235;
 }
 
 .custom_nav-container {
@@ -137,7 +135,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 20px;
-    color: #131313;
+    color: #c2c2b1;
     text-align: center;
     text-transform: uppercase;
     border-radius: 5px;
@@ -149,12 +147,12 @@ a:focus {
 .custom_nav-container .navbar-nav .nav-item .nav-link svg {
   width: 17px;
   height: auto;
-  fill: #000000;
+  fill: #ef8354;
   margin-bottom: 2px;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #797703;
+  color: #000000;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link svg, .custom_nav-container .navbar-nav .nav-item.active .nav-link svg {
@@ -350,13 +348,17 @@ a:focus {
     position: relative;
     margin-top: 25px;
     padding: 35px 35px;
-    background-color: #f7f8f9;
+    background-color: #e5e5e5;
+    background-image: url('images/MenuImg.png');
+    background-size: cover; /
+    background-position: center;
     -webkit-transition: all .3s;
     transition: all .3s;
     overflow: hidden;
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
     border: solid #fff 10px;
 }
+
 
 .product_section .box .img-box {
   display: -webkit-box;
@@ -368,12 +370,12 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 215px;
+  height: 205px;
 }
 
 .product_section .box .img-box img {
   max-width: 100%;
-  max-height: 160px;
+  max-height: 190px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -395,7 +397,7 @@ a:focus {
 
 .product_section .box .detail-box h6 {
   margin-top: 10px;
-  color: #002c3e;
+  color: #8a817c;
   font-weight: 600;
 }
 
@@ -463,14 +465,14 @@ a:focus {
 }
 
 .product_section .options .option1 {
-  background-color: #797703;
-  border: 1px solid #b0c538;
+  background-color: #000000;
+  border: 1px solid #000000;
   color: #ffffff;
 }
 
 .product_section .options .option1:hover {
-  background-color: transparent;
-  color: #b0c538;
+  background-color: #333;
+  color: #ffffff;
 }
 
 .product_section .options .option2 {
@@ -480,7 +482,7 @@ a:focus {
 }
 
 .product_section .options .option2:hover {
-  background-color: transparent;
+  background-color: #000000;
   color: #000000;
 }
 
@@ -507,11 +509,11 @@ a:focus {
 
 .product_section .btn-box a:hover {
   background-color: transparent;
-  color: #b0c538;
+  color: #000000;
 }
 
 .arrival_section .heading_container {
-  color: #002c3e;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -595,7 +597,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #002c3e;
+  color: #999998;
 }
 
 .subscribe_section .subscribe_form .heading_container h2 {
@@ -1088,7 +1090,7 @@ form input[type="submit"]:focus {
 /** cpy **/
 
 .cpy_ {
-    background: #79770383;
+    background: #000000;
     text-align: center;
     padding: 20px 0;
 }

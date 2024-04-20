@@ -1,7 +1,10 @@
+
+
+
 <header class="header_section">
             <div class="container">
                <nav class="navbar navbar-expand-lg custom_nav-container ">
-               <a class="navbar-brand" href="{{url('/')}}" style="font-size: 40px; font-weight: 800; color: #797703;"><img width="250" src="logo/logo.png" alt="" height="100dp" /></a>
+               <a class="navbar-brand" href="{{url('/')}}" ><img width="150" src="logo/logo.png" alt="" height="50dp" /></a>
 
 
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +20,7 @@
                            <a class="nav-link" href="{{url('order')}}">Your Orders</a>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="{{url('/')}}">Products</a>
+                        <a class="nav-link" href="{{url('/producthome')}}">Products</a>
                            
                         </li>
                        

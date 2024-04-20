@@ -84,7 +84,7 @@
                 @foreach($data as $data)
                     
                 <tr>
-                            <td>{{$data->product->title}}</td>
+                <td>{{ $data->product->title ?? 'Product Not Found' }}</td>
                             <td>{{$data->quantity}}</td>
                             <td>{{$data->message}}</td>
                             <td>{{$data->totalprice}}</td>

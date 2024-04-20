@@ -37,6 +37,7 @@ route::get('/redirect', [HomeController::class,'redirect']);
 
 route::post('/add_order/{id}',[HomeController::class,'add_order']);
 
+route::get('/producthome', [HomeController::class,'producthome']);
 
 
 route::get('/view_product', [AdminController::class,'view_product']);
